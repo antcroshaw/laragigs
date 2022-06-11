@@ -1,4 +1,4 @@
-@extends('layout')
+<x-layout>
 
 @section('content')
     <a href="/" class="inline-block text-black ml-4 mb-4"
@@ -50,5 +50,6 @@
     </div>
 @include('partials._search')
     <h2> {{ $listing['title'] }}</h2>
-    <p> {{ $listing['description'] }}</p>
-@endsection
+        <p> {{ $listing['description'] }}</p>
+</x-layout>
+
