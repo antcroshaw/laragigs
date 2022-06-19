@@ -61,5 +61,6 @@
 </footer>
 </body>
 </html>
+<x-flash-message />
 </body>
 </html>
